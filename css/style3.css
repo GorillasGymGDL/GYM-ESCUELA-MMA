@@ -1,0 +1,105 @@
+html,body {
+		height:100%;
+}
+		
+
+li{
+	float: left;
+	list-style: none;
+	padding: 20px;
+	
+}
+li:hover a{
+	color:red;
+}
+
+nav{
+	float:right;
+	margin-top: 25px;
+	
+}
+
+a{
+	text-decoration: none;
+font-family:"Times New Roman";
+}
+
+header{
+	
+	background:black;
+	
+}
+h1{
+	text-align: center;
+	font-size:40px; 
+}
+
+section{
+	
+	width: 100%;
+	background:red;
+	float: left;
+	overflow: auto;
+	padding-bottom: 60px;
+	padding-top:30px;
+}
+
+.container{
+  position: relative;
+}
+.caja{
+  width: 180px;
+  height: 180px;
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 60px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+.caja1{
+  background-color: none;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.caja1:hover{
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+}
+.caja2{
+  background-color: none;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.caja2:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.caja3{
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: none;
+}
+.caja3:hover{
+  -webkit-transform: translate(10%);
+  transform: translate(10%);
+}
+.caja4{
+  background-color: none;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.caja4:hover{
+  -webkit-transform: skew(10deg);
+  transform: skew(10deg);
+}
+.caja5{
+  background-color: none;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.caja5:hover{
+  -webkit-transform: skewY(10deg);
+  transform: skewY(10deg);
+}
